@@ -191,6 +191,10 @@ button {
     margin-bottom: 10px;
 }
 
+button:hover {
+    background-color: hsla(224, 30%, 27%, 0.21);
+}
+
 /* .space{
     width: 100%;
     background-color: blue;
@@ -239,21 +243,52 @@ button {
         width: 100%;
         height: 100%;
     }
-    
-    button{
-        padding-top: 15px;
-        padding-bottom: 15px;
+
+    button {
+        padding-top: 20px;
+        padding-bottom: 20px;
         border-radius: 30px;
+        background-color: hsl(224, 30%, 27%);
     }
-    #desc{
+
+    #desc {
         margin-bottom: 10px;
     }
-    #great{
+
+    #great {
         margin-top: 10px;
     }
 
-    #scorenumber{
+    #scorenumber {
         width: 100px;
         height: 100px;
+    }
+
+    .sumscore {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #summarytext {
+        font-size: 20px;
+    }
+
+    #sections {
+        gap: 10px;
+    }
+
+    img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .skilltext {
+        font-size: 17px;
+        color: black;
+    }
+
+    .icontext {
+        align-items: center;
+        gap: 10px;
     }
 }
