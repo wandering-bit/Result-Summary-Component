@@ -1,0 +1,259 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+span {
+    font-family: Hanken Grotesk;
+}
+
+img {
+    height: 15px;
+    width: 15px;
+}
+
+.skilltext {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.amarks {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.toalamarks {
+    font-size: 15px;
+    font-weight: 500;
+    color: hsla(224, 30%, 27%, 0.467);
+}
+
+#background {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 300px;
+    width: 500px;
+}
+
+#score {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#summary {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.085);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#your-result {
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#scorenumber {
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#mark {
+    font-size: 40px;
+    color: white;
+    font-weight: 1000;
+}
+
+#total {
+    font-size: 10px;
+    font-weight: 500;
+    color: hsla(241, 100%, 89%, 0.608);
+}
+
+#great {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#desc {
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+#reaction {
+    background-color: hsla(0, 100%, 67%, 0.100);
+}
+
+#react {
+    color: hsl(0, 100%, 67%);
+    height: 100%;
+}
+
+#memory {
+    background-color: hsla(39, 100%, 56%, 0.100);
+}
+
+#memo {
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal {
+    background-color: hsla(166, 100%, 37%, 0.100);
+}
+
+#verb {
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    background-color: hsla(234, 85%, 45%, 0.100);
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    border: none;
+}
+
+#vis {
+    color: hsl(234, 85%, 45%);
+}
+
+.sumscore {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content:space-around; */
+}
+
+.icontext {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.icontext img {
+    height: 100%;
+}
+
+#summarytext {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+/* .space{
+    width: 100%;
+    background-color: blue;
+} */
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #background {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    #container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border-radius: 20px; */
+        background-color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #score {
+        width: 100%;
+        height: 50%;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    #summary {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }
+    
+    button{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 30px;
+    }
+    #desc{
+        margin-bottom: 10px;
+    }
+    #great{
+        margin-top: 10px;
+    }
+
+    #scorenumber{
+        width: 100px;
+        height: 100px;
+    }
+}
